@@ -1,0 +1,151 @@
+# Revision 1 09/21/2022
+## Begin Hadi Ballout (09/21/2022)
+
+#Work Ticket 1
+
+#1.
+#use triple quotations
+print(""" "Hello World" """)
+print('\n')
+
+#2.
+#use double quotations
+print("Apostrophe's")
+print('\n')
+
+#3.
+#use triple quotations
+print("""Hello world, Hello world,Hello world, 
+Hello world, Hello world, Hello world,
+Hello world, Hello world, Hello world, """)
+print('\n')
+
+#4.
+#use backslashes and triple quotations
+x="""
+Hello world, Hello world,Hello world, \
+Hello world, Hello world,Hello world, \
+Hello world, Hello world,Hello world \
+"""
+print(x)
+print('\n')
+
+
+#Work Ticket 2
+
+
+#1.
+#create string with variable/ print using len()
+x2 = ('Hello world')
+print(len(x2))
+print('\n')
+
+#2.
+#use + to concatenate#
+x2= "Hello World"
+y= "Hello World"
+print(x2+y)
+print('\n')
+
+#3.
+#use concatenate and empty quotes to make space
+x3= "Hello World"
+x4= "Hello World"
+print(x3 +" "+x4)
+print('\n')
+
+#4.
+#use slice()
+y2= "bazinga"
+a= slice(2,6)
+print(y2[a])
+print('\n')
+
+#Work Ticket 3
+
+#1.
+#use .lower()
+y3= "Animals"
+y4= "Badger"
+y5= "Honey Bee"
+y6= "Honey Badger"
+print(y3.lower(),'\n',y4.lower(),'\n',y5.lower(),'\n',y6.lower())
+print('\n')
+
+
+#2.
+#use .upper()
+y3= "Animals"
+y4= "Badger"
+y5= "Honey Bee"
+y6= "Honey Badger"
+print(y3.upper(),'\n',y4.upper(),'\n',y5.upper(),'\n',y6.upper())
+print('\n')
+
+
+#3.
+#use .strip to remove whitespace
+string1 = " Filet Mignon"
+string2 = "Brisket "
+string3 = " Cheeseburger "
+print(string1.strip(),string2.strip(),string3.strip())
+print('\n')
+
+
+#4.
+#use print(stringname.startwith("be"))
+string1 = "Becomes"
+print(string1.startswith("be"))
+string2 = "becomes"
+print(string2.startswith("be"))
+string3 = "BEAR"
+print(string3.startswith("be"))
+string4 = " bEautiful"
+print(string4.startswith("be"))
+print('\n')
+
+#Work Ticket 4
+
+
+#1.
+#use int() to convert string
+s1= '2'
+si= int(s1)
+print(si*2)
+print('\n')
+
+#2.
+#use float() to convert string
+s1= '2'
+si= float(s1)
+print(si*2)
+print('\n')
+
+
+#3.
+#use str() convert int to string
+s2 = " hello"
+i1= 2
+print(str(i1),s2)
+print('\n')
+
+
+#4.
+#use input() to get user input with int() to make input a int type
+in1= int(input())
+in2= int(input())
+in3= float(in1 * in2)
+print("The product of", in1, "and", in2, "is", in3)
+print('\n')
+
+
+#5.
+#use find() to find where world is located in string
+st1= "Hello World"
+find= st1.find("World")
+print(find)
+
+# Revision number 09/21/2022
+## End Hadi Ballout
+# Zion Worship Cult / Ram Vuduku / Rich Eissen / the Zion Project
+
